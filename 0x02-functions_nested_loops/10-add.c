@@ -1,14 +1,12 @@
 #include "main.h"
-
 /**
- * add - add two integers
- * @a: first parameter
- * @b: second parameter
- * Return: the sum of both parameter as int
+ * add - a function that adds two integers and returns the result
+ * @one: first number input
+ * @two: second number input
+ * Return: one + two
  */
-int add(int a, int b)
+int add(int one, int two)
 {
-	return (a + b);
+	return (one + two);
 }
-Footer
 
